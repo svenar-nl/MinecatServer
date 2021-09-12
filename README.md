@@ -3,7 +3,7 @@ Server for the game Minecat
 
 
 ## Installation
-run `python -m pip -r requirements.txt` to install the server dependencies
+run `python -m pip install -r requirements.txt` to install the server dependencies
 
 
 ## Running
