@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 
 import random
@@ -7,7 +8,7 @@ import asyncio
 from pathlib import Path
 import json
 
-SERVER_GAME_VERSION = "v1.8"
+SERVER_GAME_VERSION = "v1.9"
 
 MAP_SEED = 42069
 MAP_SIZE = {"x": 200, "y": 300} # *32 (tilesize)
